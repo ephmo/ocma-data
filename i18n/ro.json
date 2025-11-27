@@ -1,0 +1,175 @@
+{
+  "descriptions": {
+    "language": "Limba",
+    "language_en": "English",
+    "language_el": "Ελληνικά",
+    "language_ro": "Română",
+    "calendar_style": "Stil calendar",
+    "old_calendar": "Stil vechi",
+    "new_calendar": "Stil nou",
+    "fasting_rules": "Reguli de postire",
+    "monastic": "Monahale",
+    "laypeople": "Pentru mireni",
+    "lectionary": "Evanghelistar",
+    "tone": "Glas",
+    "matins_gospel": "Voscreasnă",
+    "epistle": "Apostol",
+    "gospel": "Evanghelie",
+    "paschalion": "Pascalie"
+  },
+  "months": {
+    "1": {
+      "short": "Ian",
+      "long": "Ianuarie"
+    },
+    "2": {
+      "short": "Feb",
+      "long": "Februarie"
+    },
+    "3": {
+      "short": "Mar",
+      "long": "Martie"
+    },
+    "4": {
+      "short": "Apr",
+      "long": "Aprilie"
+    },
+    "5": {
+      "short": "Mai",
+      "long": "Mai"
+    },
+    "6": {
+      "short": "Iun",
+      "long": "Iunie"
+    },
+    "7": {
+      "short": "Iul",
+      "long": "Iulie"
+    },
+    "8": {
+      "short": "Aug",
+      "long": "August"
+    },
+    "9": {
+      "short": "Sep",
+      "long": "Septembrie"
+    },
+    "10": {
+      "short": "Oct",
+      "long": "Octombrie"
+    },
+    "11": {
+      "short": "Nov",
+      "long": "Noiembrie"
+    },
+    "12": {
+      "short": "Dec",
+      "long": "Decembrie"
+    }
+  },
+  "weekdays": {
+    "1": {
+      "short": "Lun",
+      "long": "Luni"
+    },
+    "2": {
+      "short": "Mar",
+      "long": "Marți"
+    },
+    "3": {
+      "short": "Mie",
+      "long": "Miercuri"
+    },
+    "4": {
+      "short": "Joi",
+      "long": "Joi"
+    },
+    "5": {
+      "short": "Vin",
+      "long": "Vineri"
+    },
+    "6": {
+      "short": "Sâm",
+      "long": "Sâmbătă"
+    },
+    "7": {
+      "short": "Dum",
+      "long": "Duminică"
+    }
+  },
+  "moon_phases": {
+    "1": "Lună nouă",
+    "2": "Primul pătrar",
+    "3": "Lună plină",
+    "4": "Ultimul pătrar"
+  },
+  "fastings": {
+    "seasons": {
+      "1": "Prima săptămână a Triodului",
+      "2": "Săptămâna brânzei",
+      "3": "Postul de trei zile",
+      "4": "Postul Mare",
+      "5": "Săptămâna Mare",
+      "6": "Săptămâna Luminată",
+      "7": "Săptămâna Sfântului Duh",
+      "8": "Postul Sfinților Apostoli",
+      "9": "Postul Adormirii Maicii Domnului",
+      "10": "Postul Nașterii Domnului",
+      "11": "Doisprezece zile de harți",
+      "12": "Perioadă obișnuită"
+    },
+    "levels": {
+      "1": "Dezlegare la toate",
+      "2": "Dezlegare la produse lactate",
+      "3": "Dezlegare la pește",
+      "4": "Dezlegare la vin și untdelemn",
+      "5": "Post aspru",
+      "6": "Post total"
+    }
+  },
+  "sundays": {
+    "descriptions": {
+      "": ""
+    },
+    "lectionaries": {
+      "1": {
+        "tone": "",
+        "matins_gospel": "",
+        "epistle": "",
+        "gospel": ""
+      }
+    }
+  },
+  "feasts": {
+    "movable": {
+      "major_feasts": {
+        "": []
+      },
+      "minor_feasts": {
+        "": []
+      }
+    },
+    "fixed": {
+      "great_feasts": {
+        "": []
+      },
+      "middle_feasts": {
+        "": []
+      },
+      "lesser_feasts": {
+        "": []
+      }
+    }
+  },
+  "saints": {
+    "common_saints": {
+      "": []
+    },
+    "additional_saints": {
+      "": []
+    },
+    "calendar_specific_saints": {
+      "": []
+    }
+  }
+}

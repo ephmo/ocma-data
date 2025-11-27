@@ -1,0 +1,175 @@
+{
+  "descriptions": {
+    "language": "Language",
+    "language_en": "English",
+    "language_el": "Ελληνικά",
+    "language_ro": "Română",
+    "calendar_style": "Calendar Style",
+    "old_calendar": "Old Calendar",
+    "new_calendar": "New Calendar",
+    "fasting_rules": "Fasting Rules",
+    "monastic": "Monastic",
+    "laypeople": "Laypeople",
+    "lectionary": "Lectionary",
+    "tone": "Tone",
+    "matins_gospel": "Matins Gospel",
+    "epistle": "Epistle",
+    "gospel": "Gospel",
+    "paschalion": "Paschalion"
+  },
+  "months": {
+    "1": {
+      "short": "Jan",
+      "long": "January"
+    },
+    "2": {
+      "short": "Feb",
+      "long": "February"
+    },
+    "3": {
+      "short": "Mar",
+      "long": "March"
+    },
+    "4": {
+      "short": "Apr",
+      "long": "April"
+    },
+    "5": {
+      "short": "May",
+      "long": "May"
+    },
+    "6": {
+      "short": "Jun",
+      "long": "June"
+    },
+    "7": {
+      "short": "Jul",
+      "long": "July"
+    },
+    "8": {
+      "short": "Aug",
+      "long": "August"
+    },
+    "9": {
+      "short": "Sep",
+      "long": "September"
+    },
+    "10": {
+      "short": "Oct",
+      "long": "October"
+    },
+    "11": {
+      "short": "Nov",
+      "long": "November"
+    },
+    "12": {
+      "short": "Dec",
+      "long": "December"
+    }
+  },
+  "weekdays": {
+    "1": {
+      "short": "Mon",
+      "long": "Monday"
+    },
+    "2": {
+      "short": "Tue",
+      "long": "Tuesday"
+    },
+    "3": {
+      "short": "Wed",
+      "long": "Wednesday"
+    },
+    "4": {
+      "short": "Thu",
+      "long": "Thursday"
+    },
+    "5": {
+      "short": "Fri",
+      "long": "Friday"
+    },
+    "6": {
+      "short": "Sat",
+      "long": "Saturday"
+    },
+    "7": {
+      "short": "Sun",
+      "long": "Sunday"
+    }
+  },
+  "moon_phases": {
+    "1": "New Moon",
+    "2": "First Quarter",
+    "3": "Full Moon",
+    "4": "Last Quarter"
+  },
+  "fastings": {
+    "seasons": {
+      "1": "First Week of the Triodion",
+      "2": "Cheesefare Week",
+      "3": "Three-Day Fast",
+      "4": "Great Lent",
+      "5": "Holy Week",
+      "6": "Bright Week",
+      "7": "Week of the Holy Spirit",
+      "8": "Apostles' Fast",
+      "9": "Dormition Fast",
+      "10": "Nativity Fast",
+      "11": "Twelve-Day Fast-free",
+      "12": "Regular Season"
+    },
+    "levels": {
+      "1": "No Fasting",
+      "2": "Dairy Products Allowed",
+      "3": "Fish Allowed",
+      "4": "Wine and Olive Oil Allowed",
+      "5": "Strict Fast",
+      "6": "Absolute Fast"
+    }
+  },
+  "sundays": {
+    "descriptions": {
+      "": ""
+    },
+    "lectionaries": {
+      "1": {
+        "tone": "",
+        "matins_gospel": "",
+        "epistle": "",
+        "gospel": ""
+      }
+    }
+  },
+  "feasts": {
+    "movable": {
+      "major_feasts": {
+        "": []
+      },
+      "minor_feasts": {
+        "": []
+      }
+    },
+    "fixed": {
+      "great_feasts": {
+        "": []
+      },
+      "middle_feasts": {
+        "": []
+      },
+      "lesser_feasts": {
+        "": []
+      }
+    }
+  },
+  "saints": {
+    "common_saints": {
+      "": []
+    },
+    "additional_saints": {
+      "": []
+    },
+    "calendar_specific_saints": {
+      "": []
+    }
+  }
+}
