@@ -3,11 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OCMA API</title>
+    <title>OCMA-Data API</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 2rem auto;
+        max-width: 800px;
+        line-height: 1.7;
+        color: #222;
+      }
+
+      h1,
+      h2 {
+        font-weight: 600;
+      }
+
+      code {
+        background: #f4f4f4;
+        padding: 3px 6px;
+        border-radius: 4px;
+      }
+
+      .section {
+        margin-bottom: 2rem;
+      }
+
+      a {
+        color: #0057b8;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      ul {
+        margin-top: 0.5rem;
+      }
+
+      footer {
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        color: #666;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>OCMA API</h1>
-    <p><a href="./data/paschalion/old.json">Paschalion Old Calendar</a></p>
-    <p><a href="./data/paschalion/new.json">Paschalion New Calendar</a></p>
+    <h1>OCMA-Data API</h1>
+
+    <div class="section">
+      <p>
+        <strong>OCMA-Data</strong> is a structured Orthodox Calendar dataset
+        providing JSON files for each liturgical day from
+        <strong>1924 to 2099</strong>, supporting both the
+        <strong>Old Calendar (Julian)</strong> and
+        <strong>New Calendar (Revised Julian)</strong>.
+      </p>
+
+      <p>
+        It includes Feasts, Saints, Fasting rules, Lectionary information,
+        Paschalion calculations, and Moon Phases. Data is fully
+        <strong>multilingual</strong> with separate JSON files for English,
+        Greek, and Romanian.
+      </p>
+    </div>
+
+    <h2>API Examples</h2>
+    <p>Below are example endpoints for accessing the dataset.</p>
+
+    <div class="section">
+      <h3>Daily Calendar (by Year)</h3>
+      <p>Example:</p>
+      <ul>
+        <li>
+          Old Calendar 1924:
+          <a href="./data/old/1924.json">/data/old/1924.json</a>
+        </li>
+        <li>
+          New Calendar 2099:
+          <a href="./data/new/2099.json">/data/new/2099.json</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Multilingual Files</h3>
+      <p>Each calendar day supports multiple languages.</p>
+      <ul>
+        <li>English: <code>en</code></li>
+        <li>Greek: <code>el</code></li>
+        <li>Romanian: <code>ro</code></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>Paschalion</h3>
+      <ul>
+        <li>
+          Old Calendar Paschalion:
+          <a href="./data/paschalion/old.json">/data/paschalion/old.json</a>
+        </li>
+        <li>
+          New Calendar Paschalion:
+          <a href="./data/paschalion/new.json">/data/paschalion/new.json</a>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <a href="https://github.com/ephmo/ocma-data">OCMA-Data</a> • MIT Licensed
+      • See
+      <a href="https://github.com/ephmo/ocma-data/blob/main/README.md"
+        >README</a
+      >
+      for full documentation
+    </footer>
   </body>
 </html>
