@@ -15,7 +15,7 @@
 
 ## Multilingual Support & Translation-Friendly Structure
 
-**OCMA-Data** is available in **English, Greek, and Romanian**, with each language stored in **separate JSON files**. This separation ensures a clear distinction between **liturgical logic** and **language**, allowing easy expansion to additional languages in the future.
+**OCMA-Data** is available in **English, Greek, Romanian and Russian**, with each language stored in **separate JSON files**. This separation ensures a clear distinction between **liturgical logic** and **language**, allowing easy expansion to additional languages in the future.
 
 ## Usage
 
