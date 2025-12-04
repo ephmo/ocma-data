@@ -8,7 +8,7 @@ from enum import StrEnum
 class CLIConstants:
     """Immutable constants for CLI."""
 
-    BUILD_FOLDER: str = "build/data"
+    BUILD_FOLDER: str = "public/data"
     PASCHALION: str = "paschalion"
     YEAR_END: int = 2100
     YEAR_START: int = 1924

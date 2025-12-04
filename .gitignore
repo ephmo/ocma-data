@@ -1,7 +1,7 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
-build/data/
+build/
 dist/
 wheels/
 *.egg-info
@@ -11,3 +11,5 @@ utils/__pycache__/
 
 # Virtual environments
 .venv
+
+public/data/
