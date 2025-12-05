@@ -1,5 +1,9 @@
 # OCMA-Data
 
+![Stage](https://img.shields.io/badge/stage-alpha-orange)
+![Build](https://img.shields.io/github/actions/workflow/status/ephmo/ocma-data/deploy.yml)
+![License](https://img.shields.io/github/license/ephmo/ocma-data)
+
 ## Overview
 
 **OCMA-Data** is a structured **Orthodox Calendar** dataset that provides JSON files for each liturgical day of the year, supporting both the **Old Calendar (Julian)** and the **New Calendar (Revised Julian)** from 1924 to 2099. This dataset serves as the foundation for the [OCMA](https://github.com/ephmo/ocma) application, offering comprehensive liturgical details.
