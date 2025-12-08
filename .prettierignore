@@ -1,5 +1,9 @@
 node_modules/
+public/data/
 .git/
+.pytest_cache/
+.ruff_cache/
+.venv/
 LICENSE
 package-lock.json
 .gitignore
