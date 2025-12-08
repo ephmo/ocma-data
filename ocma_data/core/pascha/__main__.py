@@ -16,9 +16,7 @@ def valid_year(value: str) -> int:
     """Validate the given year."""
     parsed_year = int(value)
     if not (YEAR_START - 1 <= parsed_year <= YEAR_END):
-        raise argparse.ArgumentTypeError(
-            f"Year must be between {YEAR_START - 1} and {YEAR_END}."
-        )
+        raise argparse.ArgumentTypeError(f"Year must be between {YEAR_START - 1} and {YEAR_END}.")
     return parsed_year
 
 

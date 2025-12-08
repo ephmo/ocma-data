@@ -17,9 +17,7 @@ def valid_date(value: str) -> date:
         parsed_date = string_to_date(value)
 
     except ValueError as err:
-        raise argparse.ArgumentTypeError(
-            f"Invalid date format: '{value}'. Use YYYY-MM-DD."
-        ) from err
+        raise argparse.ArgumentTypeError(f"Invalid date format: '{value}'. Use YYYY-MM-DD.") from err
     return parsed_date
 
 
