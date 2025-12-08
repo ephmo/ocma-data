@@ -32,7 +32,7 @@ def main() -> None:
             with Path(
                 f"{CLIConstants().BUILD_FOLDER}/{CLIConstants().PASCHALION}/{calendar_style.value}.json",
             ).open("w", encoding="utf-8") as json_file:
-                json.dump(paschalion_data, json_file, indent=4)
+                json.dump(paschalion_data, json_file, indent=2)
 
             calendar_data = {}
             calendar_data[str(current_year)] = {}
@@ -89,7 +89,7 @@ def main() -> None:
             with Path(
                 f"{CLIConstants().BUILD_FOLDER}/{calendar_style.value}/{current_year}.json",
             ).open("w", encoding="utf-8") as json_file:
-                json.dump(calendar_data, json_file, indent=4)
+                json.dump(calendar_data, json_file, indent=2)
 
 
 if __name__ == "__main__":
