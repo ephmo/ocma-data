@@ -13,3 +13,4 @@ utils/__pycache__/
 .venv
 
 public/data/
+node_modules/
