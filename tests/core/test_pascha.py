@@ -21,8 +21,6 @@ test_cases = [
 
 
 @pytest.mark.parametrize("current_year, calendar_style, expected", test_cases)
-def test_calculate_pascha(
-    current_year: int, calendar_style: str, expected: str
-) -> None:
+def test_calculate_pascha(current_year: int, calendar_style: str, expected: str) -> None:
     """Test for calculate_pascha."""
     assert calculate_pascha(current_year, calendar_style) == expected

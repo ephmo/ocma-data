@@ -20,14 +20,10 @@ def valid_date(value: str) -> date:
         parsed_date = string_to_date(value)
 
     except ValueError as err:
-        raise argparse.ArgumentTypeError(
-            f"Invalid date format: '{value}'. Use YYYY-MM-DD."
-        ) from err
+        raise argparse.ArgumentTypeError(f"Invalid date format: '{value}'. Use YYYY-MM-DD.") from err
 
     if not (YEAR_START - 1 <= parsed_date.year <= YEAR_END):
-        raise argparse.ArgumentTypeError(
-            f"Year must be between {YEAR_START - 1} and {YEAR_END}."
-        )
+        raise argparse.ArgumentTypeError(f"Year must be between {YEAR_START - 1} and {YEAR_END}.")
     return parsed_date
 
 
