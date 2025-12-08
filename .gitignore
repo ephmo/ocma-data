@@ -12,5 +12,6 @@ utils/__pycache__/
 # Virtual environments
 .venv
 
+.pytest_cache
 public/data/
 node_modules/
