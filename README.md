@@ -25,13 +25,12 @@ This repository serves as the canonical data source for the **[OCMA](https://git
 
 ### 🕯️ Liturgical Content
 
-- **Feasts**: Great, Major, Minor, and commemorative feasts
-- **Saints**: Common saints and additional local commemorations
+- **Feasts**: Great, Major, Minor and Lesser feasts
+- **Saints**: Common Saints and additional local Saints
 - **Fasting Rules**: Fasting seasons and daily fasting levels
 - **Lectionary**:
   - Tone of the week
-  - Sunday Matins Gospel
-  - Epistle and Gospel readings
+  - Sunday Matins Gospel, Epistle and Gospel
 
 ### 🌕 Astronomical Data
 
@@ -65,7 +64,7 @@ OCMA-Data follows a **year-based, language-separated JSON structure**:
 
 - **One JSON file per year**, containing all liturgical days and data for that year
 - **One JSON file per language**, holding translated textual content
-- **One unified Paschalion JSON file**, covering Pascha dates and related calculations for **all supported years (1924–2099)**
+- **One unified Paschalion JSON file**, covering Pascha dates for **all supported years**
 
 This structure provides:
 
@@ -81,7 +80,7 @@ The dataset is optimized for **clarity, maintainability, and long-term extensibi
 
 OCMA-Data is suitable for:
 
-- **Developers** building Orthodox calendar, prayer, or lectionary applications
+- **Developers** building Orthodox calendar applications
 - **Researchers** analyzing Orthodox liturgical cycles and calendar systems
 - **Church organizations** requiring structured liturgical data
 - **Faithful** seeking programmatic access to daily liturgical information
